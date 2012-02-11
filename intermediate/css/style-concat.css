@@ -219,7 +219,7 @@ td { vertical-align: top; }
    ========================================================================== */
 
 body { background: #FEFFC2;}
-h1 {font-family: 'Waiting for the Sunrise', cursive;font-size: 35px;text-align:center; margin-top: 5%; color: #B4BA6C;}
+h1 {font-family: 'Waiting for the Sunrise', cursive;font-size: 35px;text-align:center; margin-top: 5%;}
 div#cow     { width: 40%; margin: 20px auto 0 auto; border: 10px solid #CC9900; border-radius: 30px; -moz-border-radius: 30px; -khtml-border-radius: 30px; -webkit-border-radius: 30px; }
 #cow img    { cursor: pointer; width: 100%; -moz-border-radius: 20px; -khtml-border-radius: 20px; -webkit-border-radius: 20px; }
 

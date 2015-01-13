@@ -241,6 +241,10 @@ footer {
   text-align: center;
 }
 
+footer a:visited {
+  color: #B4BA6C;
+}
+
 footer a {
   color: #B4BA6C;
   text-decoration: none;

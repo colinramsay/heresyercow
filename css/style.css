@@ -237,7 +237,10 @@ div#cow     { width: 40%; margin: 20px auto 0 auto; border: 10px solid #CC9900; 
 }
 
 
-
+footer {
+  text-align: center;
+  color: #B4BA6C;
+}
 
 
 

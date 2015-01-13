@@ -51,7 +51,7 @@ soundManager.setup({
               },
               onerror: function() {
                 console.log(arguments);
-              }
+              },
               volume: 50
             });
         };

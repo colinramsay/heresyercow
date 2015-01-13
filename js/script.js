@@ -47,8 +47,11 @@ soundManager.setup({
               autoLoad: true,
               autoPlay: true,
               onload: function() {
-                //alert('The sound '+this.sID+' loaded!');
+                    alert('The sound '+this.sID+' loaded!');
               },
+              onerror: function() {
+                console.log(arguments);
+              }
               volume: 50
             });
         };

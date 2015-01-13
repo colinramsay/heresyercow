@@ -6,6 +6,7 @@ soundManager.setup({
     url: '/swf/',
     flashVersion: 9,
     preferFlash: false,
+    debugMode: true,
 
     onready: function() {
 

@@ -33,7 +33,7 @@ soundManager.setup({
 
         var play = function(file) {
             soundManager.stopAll();
-            //soundManager.destroySound(file);
+            soundManager.destroySound(file);
 
             // if(sound) {
             //     console.debug(sound);

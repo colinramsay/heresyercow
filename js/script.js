@@ -32,7 +32,7 @@ soundManager.setup({
 
         var play = function(file) {
             soundManager.stopAll();
-            soundManager.destroySound(file);
+            //soundManager.destroySound(file);
 
             // if(sound) {
             //     console.debug(sound);
@@ -47,7 +47,7 @@ soundManager.setup({
               autoLoad: true,
               autoPlay: true,
               onload: function() {
-                    alert('The sound '+this.sID+' loaded!');
+                    //alert('The sound '+this.sID+' loaded!');
               },
               onerror: function() {
                 console.log(arguments);

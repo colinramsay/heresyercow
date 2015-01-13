@@ -75,7 +75,7 @@ soundManager.setup({
                 num = Math.floor(1+ Math.random()*12);
 
             $("#cownter").flipCounter("setNumber", curr);
-            play('sound/moo' + num + '.ogg');
+            play('sound/moo' + num + '.mp3');
             setCookie('cow', curr, 30);
         });
 
